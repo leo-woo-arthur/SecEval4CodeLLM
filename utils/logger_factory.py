@@ -16,7 +16,7 @@ def log_stream_handler(p_log_name, p_stream_level, p_stream_format, p_file_name,
     
     log_handle_file = logging.FileHandler(p_file_name, p_file_mode)
     log_handle_file.setFormatter(logging.Formatter(p_file_format))
-    cur_logger.adddHandler(log_handle_file)
+    cur_logger.addHandler(log_handle_file)
     
     log_handler_stream = logging.StreamHandler()
     log_handler_stream.setLevel(logging.ERROR)
@@ -38,7 +38,7 @@ def log_file_handler(p_log_name, p_file_name, p_file_mode, p_file_level, p_file_
     
     log_handle_file = logging.FileHandler(p_file_name, p_file_mode)
     log_handle_file.setFormatter(logging.Formatter(p_file_format))
-    cur_logger.adddHandler(log_handle_file)
+    cur_logger.addHandler(log_handle_file)
     
     return cur_logger
 
@@ -48,7 +48,7 @@ log_path = "./secEval.log"
                                 log_abs_path, "w", logging.NOTSET, "%(asctime)-25s %(levelname)-8s %(message)s")
 
 # NOTSET  DEBUG  INFO  WARN  ERROR  CRITICAL
-logger = log_file_handler("log_file", log_abs_path, "a", logging.NOTSET, "%(asctime)-25s %(levelname)-8s %(message)s")
+logger = log_file_handler("log_file", log_path, "a", logging.DEBUG, "%(asctime)-25s %(levelname)-8s %(message)s")
 
 
 
