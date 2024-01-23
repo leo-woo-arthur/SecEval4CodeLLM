@@ -35,7 +35,7 @@ def run_batch_test_cases(p_llm_strategy, p_nums_of_test_cases):
         analyzers.append(JavaOwaspAnalyzer(cur_num, case_code, case_metadata))
     p_llm_strategy.sec_eval_by_llm(analyzers)
 
-    return [cur_analyzer.compare_analytical_with_expected() for cur_analyzer in analyers]
+    return [cur_analyzer.compare_analytical_with_expected() for cur_analyzer in analyzers]
 
 
 def run_all_test_cases(p_llm_strategy, p_total_of_test_cases):
