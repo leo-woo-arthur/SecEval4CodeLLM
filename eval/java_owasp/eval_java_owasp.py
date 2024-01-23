@@ -1,8 +1,8 @@
 import pandas as pd
 from datetime import datetime
 
-from eval.java_owasp.eval_java_owasp_strategy_of_chatgpt40 import LLMStrategy4ChatGpt40
-from eval.java_owasp.eval_java_owasp_strategy_of_neb import LLMStrategy4Neb
+from eval.java_owasp.eval_java_owasp_llm_strategy_of_chatgpt40 import LLMStrategy4ChatGpt40
+from eval.java_owasp.eval_java_owasp_llm_strategy_of_neb import LLMStrategy4Neb
 from eval.java_owasp.eval_java_owasp_model import JavaOwaspAnalyzer
 from utils.logger_factory import logger
 from utils.utils import fetch_file_content, fetch_xml_content
