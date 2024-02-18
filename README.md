@@ -77,7 +77,7 @@ Based on these metrics, many other evaluation measures can be calculated, such a
 
 ![ChatGPT 4.0](pic/stats_java_owasp_ChatGPT_4.0.png)
 
-![Neb](pic/Neb.png)
+![Neb](pic/stats_java_owasp_neb.png)
 
 
 ## ToDo
