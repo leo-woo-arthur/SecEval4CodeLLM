@@ -71,9 +71,9 @@ These four metrics provide a comprehensive assessment of model performance, espe
 Based on these metrics, many other evaluation measures can be calculated, such as accuracy, precision, recall, and F1 score, to gain a more detailed understanding of the model's performance.
 
 
-![IdealResult](./pic/stats_java_owasp_IdealResult.png)
+![IdealResult](pic/stats_java_owasp_IdealResult.png)
 
-![ChatGPT 3.5](./pic/stats_java_owasp_ChatGPT_3.5.png)
+![ChatGPT 3.5](https://github.com/leo-woo-arthur/SecEval4CodeLLM/blob/main/pic/stats_java_owasp_ChatGPT_3.5.png)
 
 ![ChatGPT 4.0](./pic/stats_java_owasp_ChatGPT_4.0.png)
 
