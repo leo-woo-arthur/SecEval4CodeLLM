@@ -70,16 +70,16 @@ The Confusion Matrix consists of four fundamental terms: True Positives (TP), Tr
 These four metrics provide a comprehensive assessment of model performance, especially when dealing with imbalanced datasets.
 Based on these metrics, many other evaluation measures can be calculated, such as accuracy, precision, recall, and F1 score, to gain a more detailed understanding of the model's performance.
 
-- IdealResult
+IdealResult
 ![IdealResult](./pics/stats_java_owasp_IdealResult.png)
 
-- ChatGPT 3.5
+ChatGPT 3.5
 ![ChatGPT 3.5](./pics/stats_java_owasp_ChatGPT_3.5.png)
 
-- ChatGPT 4.0
+ChatGPT 4.0
 ![ChatGPT 4.0](./pics/stats_java_owasp_ChatGPT_4.0.png)
 
-- Neb
+Neb
 ![Neb](./pics/stats_java_owasp_neb.png)
 
 
